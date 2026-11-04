@@ -1,11 +1,17 @@
-# Secrets & Environment variables
-.env
-.env.local
+# ไฟล์แคชระบบ (System Cache)
+.DS_Store
+Thumbs.db
 
-# Dependency directories
+# โฟลเดอร์ไลบรารี (Dependencies)
 node_modules/
 vendor/
 
-# OS Cache
-.DS_Store
-Thumbs.db
+# ไฟล์ตั้งค่าที่มีรหัสผ่าน (Environment Variables)
+.env
+
+# ไฟล์ Log
+*.log
+
+# โฟลเดอร์ IDE
+.vscode/
+.idea/
